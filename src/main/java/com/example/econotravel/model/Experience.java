@@ -1,5 +1,6 @@
 package com.example.econotravel.model;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 

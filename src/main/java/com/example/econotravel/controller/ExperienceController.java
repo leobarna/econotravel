@@ -1,5 +1,6 @@
 package com.example.econotravel.controller;
 
+import com.example.econotravel.model.Experience;
 import com.example.econotravel.repository.ExperienceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +10,7 @@ import java.util.List;
 
 @RestController
 public class ExperienceController {
-    private ExperienceRepository experienceRepository;
+    private final ExperienceRepository experienceRepository;
 
     @Autowired
 //constructor
