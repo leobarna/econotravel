@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.econotravel.controller;
 
 import com.example.econotravel.model.Experience;
@@ -22,3 +23,4 @@ public class ExperienceController {
 
         return experienceRepository.findAll();
     }}
+
